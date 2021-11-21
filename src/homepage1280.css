@@ -96,7 +96,7 @@
       overflow-y: unset;
       width: 617.00px;
     height: 399.00px;
-    left: 65.00px;
+    left: 5.07813vw;
     top: 182.50px;
 
 }
@@ -149,7 +149,7 @@
       background-color: transparent;
       width: 277.00px;
     height: 76.00px;
-    left: 97.00px;
+    left: 7.57813vw;
     top: 494.00px;
 
   border: none;
@@ -235,7 +235,7 @@
       white-space: pre;
       width: 232.00px;
     height: 35.00px;
-    left: 23.00px;
+    left: .179688vw;
     top: 12.50px;
 
 }
@@ -282,7 +282,7 @@
       box-shadow: none;
       width: 371.00px;
     height: 499.00px;
-    left: 759.00px;
+    left: 59.2969vw;
     top: 186.00px;
 
 }
@@ -376,7 +376,7 @@
       box-shadow: none;
       width: 508.00px;
     height: 508.00px;
-    left: -254.00px;
+    left: -19.8438vw;
     top: -254.00px;
 
 }
@@ -404,7 +404,7 @@
       box-shadow: none;
       width: 508.00px;
     height: 508.00px;
-    left: 1026.00px;
+    left: 80.1563vw;
     top: 498.00px;
 
 }
@@ -488,7 +488,7 @@
       overflow-y: unset;
       width: 574.00px;
     height: 137.00px;
-    left: 622.00px;
+    left: 48.5938vw;
     top: 87.50px;
 
 }
@@ -528,7 +528,7 @@
       overflow-y: unset;
       width: 574.00px;
     height: 115.00px;
-    left: 622.00px;
+    left: 48.5938vw;
     top: 173.00px;
 
 }
@@ -569,7 +569,7 @@
         white-space: pre;
         width: 918.00px;
         height: 306.00px;
-        left: 58.00px;
+        left: 4.53125vw;
         top: 408.00px;
         overflow-wrap: anywhere;
     }
@@ -610,7 +610,7 @@
       white-space: pre;
       width: 371.00px;
     height: 46.00px;
-    left: 332.00px;
+    left: 25.9375vw;
     top: 347.00px;
 
 }
@@ -716,7 +716,7 @@
       background-color: transparent;
       width: 154.00px;
     height: 42.00px;
-    left: 116.00px;
+    left: 9.0625vw;
     top: 55.00px;
 
   border: none;
@@ -791,7 +791,7 @@
       background-color: transparent;
       width: 117.00px;
     height: 42.00px;
-    left: 511.00px;
+    left: 39.9219vw;
     top: 55.00px;
 
   border: none;
@@ -866,7 +866,7 @@
       background-color: transparent;
       width: 123.00px;
     height: 42.00px;
-    left: 329.00px;
+    left: 25.7031vw;
     top: 55.00px;
 
   border: none;
@@ -950,7 +950,7 @@
       white-space: pre;
       width: 274.00px;
     height: 30.00px;
-    left: 116.00px;
+    left: 9.0625vw;
     top: 135.00px;
 
 }
@@ -990,7 +990,7 @@
       white-space: pre;
       width: 377.00px;
     height: 36.00px;
-    left: 798.00px;
+    left: 62.3438vw;
     top: 100.00px;
 
 }
@@ -1096,7 +1096,7 @@
       background-color: transparent;
       width: 134.00px;
     height: 48.00px;
-    left: 1074.00px;
+    left: 83.9063vw;
     top: 48.00px;
 
 }
@@ -1167,7 +1167,7 @@
       background-color: transparent;
       width: 176.00px;
     height: 48.00px;
-    left: 822.00px;
+    left: 64.2188vw;
     top: 48.00px;
 
   border: none;
@@ -1242,7 +1242,7 @@
       background-color: transparent;
       width: 103.00px;
     height: 48.00px;
-    left: 643.00px;
+    left: 50.2344vw;
     top: 48.00px;
 
   border: none;
@@ -1326,8 +1326,11 @@
       white-space: pre;
       width: 311.00px;
     height: 48.00px;
-    left: 116.00px;
+    left: 9.0625vw;
     top: 48.00px;
 
 }
+
+/*Custom*/
+
 
