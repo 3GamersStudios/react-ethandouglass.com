@@ -1,7 +1,7 @@
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
-  entry: `${__dirname}/src/index.js`,
+  entry: `${__dirname}/src/index.tsx`,
   output: {
     path: `${__dirname}/build`,
     publicPath: '/build/',
@@ -16,10 +16,11 @@ module.exports = {
   },
 
   module: {
-    rules: [
-      // use ts-loader for ts and js files so all files are converted to es5
-      { test: /\.(tsx?|js)$/, exclude: /node_modules/, loader: 'ts-loader' },
-      { test: /\.js$/, loader: 'source-map-loader' },
+      rules: [
+          // use ts-loader for ts and js files so all files are converted to es5
+          { test: /\.(tsx?|js)$/, exclude: /node_modules/, loader: 'ts-loader' },
+          { test: /\.js$/, loader: 'source-map-loader' },
+          { test: /\.css$/, use: ['style-loader','css-loader']},
     ],
   },
 
