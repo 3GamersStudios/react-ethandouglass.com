@@ -12,6 +12,15 @@ class Homepage1280 extends React.Component {
 
       };
   }
+    changeBackground(e) {
+      console.log('changed')
+    e.target.style.color = 'red';
+  }
+    resetBackground(e) {
+        console.log('Reset')
+       e.target.style.color = 'white';
+    }
+
   
   handleClick(target) {
     if (this.props.onClick) {
@@ -39,6 +48,15 @@ class Homepage1280 extends React.Component {
     
     return (
           <div data-layer="7de2be87-467c-4a64-94ac-1b2a9020c968" className="homepage1280">        <div data-layer="02537886-ed86-42d3-8636-2eb14be0f1d6" className="hiThereImEthanaspiringDeveloperAndStudentInSherwoodOregonFluentInC"><span className="hiThereImEthanaspiringDeveloperAndStudentInSherwoodOregonFluentInC-0">Hi there, I'm Ethan.<br /></span><span className="hiThereImEthanaspiringDeveloperAndStudentInSherwoodOregonFluentInC-21">Aspiring developer and student in Sherwood, Oregon. Fluent in C# and C++. Check out my latest classwork and projects.</span></div>
+        <div data-layer="7ada00ae-6dad-4f77-ade5-bf2f75c0d775" className="navbar">            <div data-layer="59cc0bc3-2bf9-4f79-be78-a1ca20e7795e" className="rectangle2"></div>
+                <div data-layer="09a61ec3-8712-441c-904c-fc3bbb3b6909" className="component34">                <div data-layer="4318e043-754b-448e-b68b-4ab40f134b0f" className="contact" onMouseOver={this.changeBackground} onMouseOut={this.resetBackround}>Contact</div>
+</div>
+                <Link data-layer="3deeca70-3656-43d9-be1d-40e60e8c9302" className="classwork3bfce124" to='/Classwork'>                <div data-layer="4eddfb21-ca6f-44bd-9651-ca6034965f18" className="classwork" onMouseOver={this.changeBackground} onMouseOut={this.resetBackround}>Classwork</div>
+</Link>
+                <Link data-layer="a905b090-38a3-40ae-9b94-39cabb23994b" className="homeLink" to='/' onMouseOver={this.changeBackground} onMouseOut={this.resetBackround}>                <div data-layer="3959a03d-437c-4201-b91d-ca43e4d547b5" className="home">Home</div>
+</Link>
+            <div data-layer="af1398e4-3df8-4849-86f5-e52069cf834b" className="ethanDouglass">Ethan Douglass</div>
+</div>
         <Link data-layer="ca90dc23-3cf4-433d-ac1b-b10447b611c8" className="classworkbtn" to='/Classwork'>            <div data-layer="2c26bbc1-072e-4513-ac2d-39954bec0ab1" className="rectangle6"></div>
             <div data-layer="cebb3e9d-d4ce-4c6b-9ac8-261209f58079" className="classwork733ea559">Classwork</div>
 </Link>
@@ -58,15 +76,6 @@ class Homepage1280 extends React.Component {
 </Link>
             <div data-layer="0f2c2afd-9dd3-43e3-b261-450ebdc71480" className="ethanDouglass5602e57e">©Ethan Douglass</div>
             <div data-layer="7aa8089c-ce5a-4210-958f-156ca68aac6b" className="psstGoDoSomeExploring">Psst! Go do some exploring!</div>
-</div>
-        <div data-layer="7ada00ae-6dad-4f77-ade5-bf2f75c0d775" className="navbar">            <div data-layer="59cc0bc3-2bf9-4f79-be78-a1ca20e7795e" className="rectangle2"></div>
-            <div data-layer="09a61ec3-8712-441c-904c-fc3bbb3b6909" className="component34">                <div data-layer="4318e043-754b-448e-b68b-4ab40f134b0f" className="contact">Contact</div>
-</div>
-            <Link data-layer="3deeca70-3656-43d9-be1d-40e60e8c9302" className="classwork3bfce124" to='/Classwork'>                <div data-layer="4eddfb21-ca6f-44bd-9651-ca6034965f18" className="classwork">Classwork</div>
-</Link>
-            <Link data-layer="a905b090-38a3-40ae-9b94-39cabb23994b" className="homeLink" to='/'>                <div data-layer="3959a03d-437c-4201-b91d-ca43e4d547b5" className="home">Home</div>
-</Link>
-            <div data-layer="af1398e4-3df8-4849-86f5-e52069cf834b" className="ethanDouglass">Ethan Douglass</div>
 </div>
 </div>
 

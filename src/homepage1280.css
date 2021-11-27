@@ -14,18 +14,19 @@
         -webkit-font-smoothing: antialiased;
         overflow: -moz-scrollbars-none;
         -ms-overflow-style: none;
+        overflow:hidden;
       }
 
       
         @font-face {
           font-family: tahoma_regular;
-          src: url(assets/tahoma.ttf);
+          src: url(assets/tahoma.woff2) format('woff2'), url(assets/tahoma.ttf) format('truetype');
         }
-        
-        @font-face {
-          font-family: tahoma_bold;
-          src: url(assets/tahomabd.ttf);
-        }
+
+@font-face {
+    font-family: tahoma_bold;
+    src: url(assets/tahomabd.woff2) format('woff2'), url(assets/tahomabd.ttf) format('truetype');
+}
         
 
       .homepage1280 {
@@ -566,7 +567,7 @@
         box-shadow: none;
         overflow-x: unset;
         overflow-y: unset;
-        white-space: pre;
+        white-space: normal;
         width: 918.00px;
         height: 306.00px;
         left: 4.53125vw;
@@ -1333,4 +1334,6 @@
 
 /*Custom*/
 
-
+.home:hover{
+    color:rgba(255, 36, 255, 1)
+}

@@ -8,8 +8,8 @@ class Home extends Component {
     render() {
         return (
             <Media queries={{
-                small: "(max-width:599px)",
-                medium: "(min-width:600px) and (max-width:1199px)",
+                small: "(max-width:500px)",
+                medium: "(min-width:1024px) and (max-width:1199px)",
                 large: "(min-width:1200px)"
             }}>
                 {matches => (
